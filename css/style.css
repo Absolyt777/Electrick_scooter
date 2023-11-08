@@ -248,7 +248,8 @@ h1 {
 }
 
 .section-3 {
-    margin-top: 117px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section-3-elips {
@@ -267,7 +268,7 @@ h1 {
 .section-3-wrapper {
     background: url(../img/sec-3-wrapper-bg.png) no-repeat;
     max-width: 1440px;
-    margin: 0 auto;
+  margin-top: 117px;
 }
 
 .sec-3-inner {
@@ -283,7 +284,7 @@ h1 {
     width: 296px;
     height: 150px;
     top: 601px;
-    right: -43px;
+    right: 0;
 }
 
 
