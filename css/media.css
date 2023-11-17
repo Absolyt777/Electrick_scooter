@@ -1,0 +1,115 @@
+@media (max-width:1201px) {
+    .header-wrapper {
+        padding: 40px 40px;
+    }
+
+    .section-1 {
+        padding: 220px 40px 15px;
+    }
+
+    h1 {
+        color: var(--ff-4-c-0-d, #FF4C0D);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Gilroy;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        max-width: 560px;
+    }
+
+    .sect-1-title {
+        color: var(--f-1-f-1-f-1, #F1F1F1);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+    }
+}
+
+@media (max-width:961px) {
+    .section-1 {
+        background-image: url(../img/bg-media.png);
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    button.header-btn-2 {
+        display: flex;
+    }
+
+    .section-2 {
+        display: none;
+    }
+
+    .section-2-mobile {
+        display: block; 
+        position: relative; 
+        padding-bottom: 80px;
+    }
+
+    h2.sect-2-mobile-title {
+        color: var(--f-1-f-1-f-1, #F1F1F1);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Gilroy;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+    }
+
+    .sect-2-mobile-item-title {
+        color: var(--ff-4-c-0-d, #FF4C0D);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        margin-top: 40px;  
+        max-width: 324px;
+    }
+
+    .sect-2-mobile-item-line {
+        width: 150px;
+        height: 3px;
+        margin: 15px 0;
+        background: var(--ff-4-c-0-d, #FF4C0D);
+    }
+
+    .sect-2-mobile-item-text {
+        color: var(--f-1-f-1-f-1, #F1F1F1);
+        font-family: Gilroy;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: -0.14px; 
+        margin-bottom: 15px; 
+        max-width: 881px;
+    } 
+
+    .section-2-mobile-lines{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    
+    }  
+
+    .sect-2-mobile-item-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-3-wrapper{
+        margin-top: 0;
+    }
+
+}
