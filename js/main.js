@@ -47,5 +47,43 @@ btnBlackFooter.onclick = function () {
 }
 
 
+const tabletScooterWhiteImg = document.querySelector('.sect-7-scooter')
+const tabletScooterBlackImg = document.querySelector('.sect-7-scooter-black')
+
+
+btnWhiteFooterTablet.onclick = function () {
+    btnBgFooterTablet.style.animation = "sect-1-btn-bg 1s linear forwards"
+    tabletScooterWhiteImg.classList.add('hidden')
+    tabletScooterBlackImg.classList.remove('hidden')
+}
+
+
+btnBlackFooterTablet.onclick = function () {
+    btnBgFooterTablet.style.animation = "sect-1-btn-bg2 1s linear forwards"
+    tabletScooterWhiteImg.classList.remove('hidden')
+    tabletScooterBlackImg.classList.add('hidden')
+}
+
+const mobileScooterWhite = document.querySelector('.mobile-wrapper-img-white')
+const mobileScooterBlack = document.querySelector('.mobile-wrapper-img-black')
+
+mobileBtnWhite.onclick = function () {
+    mobileWrapperBtnBg.style.animation = "sect-1-btn-bg 1s linear forwards"
+    mobileScooterWhite.classList.add('hidden')
+    mobileScooterBlack.classList.remove('hidden')
+}
+
+mobileBtnBlack.onclick = function () {
+    mobileWrapperBtnBg.style.animation = "sect-1-btn-bg2 1s linear forwards"
+    mobileScooterWhite.classList.remove('hidden')
+    mobileScooterBlack.classList.add('hidden')
+}
+
+
+
+
+
+
+
 
 
